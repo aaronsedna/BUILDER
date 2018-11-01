@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <!-- Google Roboto Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/checklist.css">
+  <title>BUILDER: Checklist</title>
+</head>
+
+<body>
+
+  <div class="container wizard">
+    <h2 class="border-bottom border-gray pb-2 mb-0">Post App Build Checklist</h2>
+    <div class="media text-muted pt-3">
+      <p class="media-body pb-2 mb-0 medium lh-125 border-bottom border-gray">
+        Congratulations! Now you are done building the app, please go through the checklist below to make sure the necessary steps have been performed.
+      </p>
+    </div>
+
+    <div class="checklist">
+      <ul id="myUL">
+        <li>Verify the build (test whether the .dmg, .exe and .deb works correctly)</li>
+        <li>Upload build to the client's website.</li>
+        <li>Upload the build to SharePoint.</li>
+        <li>Upload the project backup to SharePoint.</li>
+        <li>Update IPS Data.</li>
+        <li>Add notes to IPS Data if necessary.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark py-1 fixed-top bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href=""><i class="fas fa-layer-group"></i> BUILDER</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous" onload="window.$ = window.jQuery = module.exports;"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="./js/checklist-logic.js"></script>
+</body>
+
+</html>
